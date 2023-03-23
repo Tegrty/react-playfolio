@@ -1,9 +1,12 @@
 import React from 'react';
+import logo from '../../assets/img/Mariorepas-01-01.png'
 
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      {/* add image */}
+      <img src={logo} alt="mario-icon" />
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

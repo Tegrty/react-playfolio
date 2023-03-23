@@ -6,11 +6,12 @@ import spotify from '../assets/img/Socials/spotify.png';
 import youtube from '../assets/img/Socials/youtube.png';
 
 
+
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <footer className="bg-light py-4 shadow">
+    <footer id="footer" className="bg-light py-4 shadow">
       <Container>
         <Row>
           <Col md={6} className="text-center text-md-start">

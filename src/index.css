@@ -1,0 +1,20 @@
+/* set body background to image pexels-sohail-nachiti-807598.jpg */
+#root {
+  background-image: url("./assets/img/pexels-sohail-nachiti-807598.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 95vh;
+}
+
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

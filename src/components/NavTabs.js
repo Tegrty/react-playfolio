@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <>
-      <Navbar bg="light shadow" expand="lg">
+      <Navbar bg="light shadow py-4" expand="lg">
         <Container>
           <Navbar.Brand href="#home">Mario Repas</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
