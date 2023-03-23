@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-playfolio/static/css/main.5c1ba916.css",
+    "main.js": "/react-playfolio/static/js/main.a48e2bba.js",
+    "static/media/pexels-sohail-nachiti-807598.jpg": "/react-playfolio/static/media/pexels-sohail-nachiti-807598.9adbea4b45f6a0e15a91.jpg",
+    "static/media/Mariorepas-01-01.png": "/react-playfolio/static/media/Mariorepas-01-01.b2c87013dda0af0e4c09.png",
+    "static/media/pexels-pixabay-434337.jpg": "/react-playfolio/static/media/pexels-pixabay-434337.40247a49c29ae03e084e.jpg",
+    "index.html": "/react-playfolio/index.html",
+    "main.5c1ba916.css.map": "/react-playfolio/static/css/main.5c1ba916.css.map",
+    "main.a48e2bba.js.map": "/react-playfolio/static/js/main.a48e2bba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c1ba916.css",
+    "static/js/main.a48e2bba.js"
+  ]
+}
