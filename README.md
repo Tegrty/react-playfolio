@@ -18,6 +18,8 @@ This project is to be considered an exercise in React. It is a portfolio website
 - vsCode
 - Git
 
+![react-portfolio](https://user-images.githubusercontent.com/121316876/227093212-6b1d7d66-46c8-45b8-ba95-35959df27062.png)
+
 
 ## Special thanks 🙏
 
