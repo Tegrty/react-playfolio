@@ -18,19 +18,19 @@ const Footer = () => {
             <p className="text-dark">&copy; 2023 Mario Repas</p>
           </Col>
           <Col md={6} className="text-center text-md-end">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Tegrty" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="GitHub" className="social-icon" />
             </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/therealmariorepas/?hl=en&__coig_restricted=1" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" className="social-icon" />
             </a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/mario-repas-46b85b25a/?originalSubdomain=ca" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="LinkedIn" className="social-icon" />
             </a>
-            <a href="https://www.spotify.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://open.spotify.com/user/chooch63?si=fcab30cbe61149c7" target="_blank" rel="noopener noreferrer">
               <img src={spotify} alt="Spotify" className="social-icon" />
             </a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@mariorepas9100" target="_blank" rel="noopener noreferrer">
               <img src={youtube} alt="YouTube" className="social-icon" />
             </a>
           </Col>
