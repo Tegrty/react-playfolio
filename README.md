@@ -7,7 +7,7 @@ This project is to be considered an exercise in React. It is a portfolio website
 ## Installation 💿
 
 - Clone, download or fork this repository
-- Visit the deployed version [here](https://react-playfolio.netlify.app/)
+- Visit the deployed version [here](https://tegrty.github.io/react-playfolio/)
 
 ## Technologies 💻
 - React
