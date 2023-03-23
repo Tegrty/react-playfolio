@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { Form, Button, Modal } from "react-bootstrap";
 
 const ContactForm = () => {
-  const [showNameError, setShowNameError] = useState(false);
-  const [showEmailError, setShowEmailError] = useState(false);
-  const [showInvalidEmailError, setShowInvalidEmailError] = useState(false);
-  const [formData, setFormData] = useState({
+  const [showNameError, setShowNameError] = useState(false); // State to show/hide name error
+  const [showEmailError, setShowEmailError] = useState(false);// State to show/hide email error
+  const [showInvalidEmailError, setShowInvalidEmailError] = useState(false); // State to show/hide invalid email error
+  const [formData, setFormData] = useState({ 
     name: "",
     email: "",
     message: "",
   });
-
+// update state when user types in form
   const handleInputChange = (event) => {
     setFormData({
       ...formData,

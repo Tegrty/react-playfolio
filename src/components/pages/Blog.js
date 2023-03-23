@@ -1,24 +1,77 @@
-import React from 'react';
+import React from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import image1 from "../../assets/img/pexels-pixabay-434337.jpg";
 
-export default function Blog() {
+
+const Blog = () => {
+
+  //array of projects
+  const projects = [
+    {
+      id: 1,
+      title: "Sport-Link-Connect",
+      image: image1,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      githubLink: "https://github.com/Tegrty/Sport-Link-Connect",
+    },
+    {
+      id: 2,
+      title: "Two-Note",
+      image: image1,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      githubLink: "https://github.com/Tegrty/Two-Note",
+    },
+    {
+      id: 3,
+      title: "The-Sudo-Studio",
+      image: image1,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      githubLink: "https://github.com/Tegrty/The-Sudo-Studio",
+    },
+    {
+      id: 4,
+      title: "The-Weather-Space",
+      image: image1,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      githubLink: "https://github.com/Tegrty/The-Weather-Space",
+    },
+    {
+      id: 5,
+      title: "CLI-Employee-Tracker",
+      image: image1,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      githubLink: "https://github.com/Tegrty/CLI-Employee-Tracker",
+    },
+    {
+      id: 6,
+      title: "Social-Media-API",
+      image: image1,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      githubLink: "https://github.com/Tegrty/Social-Media-API",
+    },
+  ];
+
+// map through projects array and display each project
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    <Container className="mt-5">
+      <Row xs={1} md={2} lg={3} className="g-4">
+        {projects.map((project) => (
+          <Col key={project.id}>
+            <Card>
+              <Card.Img variant="top" src={project.image} />
+              <Card.Body>
+                <Card.Title>{project.title}</Card.Title>
+                <Card.Text>{project.description}</Card.Text>
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
-}
+};
+
+export default Blog;
